@@ -18,4 +18,4 @@ Start server:
 npm run dev
 ```
 
-(/public/delucas.gif)
+https://portfolio-dirzieh.vercel.app/videos/delucas.gif
