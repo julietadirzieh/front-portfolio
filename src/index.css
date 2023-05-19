@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: lato;
+    src: url("/fonts/lato/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("/fonts/open-sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSansItalic;
+    src: url("/fonts/open-sans/OpenSans-LightItalic.ttf");
+}
+
+body {
+    font-family: 'OpenSans';
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #1E1D1D;
+}
+
+section {
+    overflow: hidden;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'lato';
+}
+.italic-font{
+    font-family: 'OpenSansItalic';
+}
+.slick-prev, .slick-next{
+	background-color: #991823;
+	border-radius: 100%;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background-color: #991823;
+}
+
+.activeNav > .active {
+    color: black;
+}
+
+@media (min-width: 768px) { 
+    .activeNav > .active {
+    color: #991823;}
+}
